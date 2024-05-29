@@ -76,3 +76,6 @@ class Generator(nn.Module):
         u7 = self.u7(torch.cat([u6, d2], 1))
         
         return self.final_up(torch.cat([u7, d1], 1))
+    
+if __name__=='__main__':
+    pass

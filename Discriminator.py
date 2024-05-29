@@ -26,4 +26,7 @@ class Discriminator(nn.Module):
         x = torch.cat([x, y], dim=1)
         x = self.initial_block(x)
         return self.main_body(x)
+    
+if __name__=='__main__':
+    pass
         
