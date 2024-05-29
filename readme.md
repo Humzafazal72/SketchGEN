@@ -35,3 +35,24 @@ To install and run this project, follow these steps:
 
 ## Usage
 You can either train the model from scratch by running the train.py file or you can download the weights from <a href="#">this link</a> and get infrence by using get_infrence.py 
+
+## Examples
+
+Here are a few examples of input portraits and their corresponding sketch outputs:
+
+<div style="display: flex; flex-direction: row;">
+
+<div style="margin-right: 10px;">
+    <img src="examples/portrait1.jpg" alt="Portrait1" width="200"/>
+    <p>Input Portrait</p>
+</div>
+
+<div>
+    <img src="examples/sketch1.png" alt="Sketch1" width="200"/>
+    <p>Sketch Output</p>
+</div>
+
+</div>
+
+</div>
+
