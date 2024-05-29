@@ -43,13 +43,8 @@ Here are a few examples of input portraits and their corresponding sketch output
 <div style="display: flex; flex-direction: row;">
 
 <div style="margin-right: 10px;">
-    <img src="examples/portrait1.jpg" alt="Portrait1" width="200"/>
+    <img src="examples.jpg" alt="Portrait1" width="256"/>
     <p>Input Portrait</p>
-</div>
-
-<div>
-    <img src="examples/sketch1.png" alt="Sketch1" width="200"/>
-    <p>Sketch Output</p>
 </div>
 
 </div>
