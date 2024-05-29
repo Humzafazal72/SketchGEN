@@ -42,9 +42,8 @@ Here are a few examples of input portraits and their corresponding sketch output
 
 <div style="display: flex; flex-direction: row;">
 
-<div style="margin-right: 10px;">
+<div style="margin-right: 50   %;">
     <img src="example.jpg" alt="Portrait1" width="256"/>
-    <p>Input Portrait</p>
 </div>
 
 </div>
