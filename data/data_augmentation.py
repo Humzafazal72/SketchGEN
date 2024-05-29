@@ -43,7 +43,9 @@ def apply_augmentation(src_path, dst_path):
 
 
 if __name__ == '__main__':
+    #apply augmentation to Portraits
     apply_augmentation(src_path=r"..\\mock data\\portraits\\",
                        dst_path=r"destination_path_here\\")
+    #apply augmentation to Sketches
     apply_augmentation(src_path=r"..\\mock data\\sketches\\",
                        dst_path=r"destination_path_here\\")
