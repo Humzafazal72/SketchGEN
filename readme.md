@@ -9,7 +9,6 @@ Welcome to the Portrait to SketchGAN! This project leverages the power of pix2pi
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -44,4 +43,6 @@ Here are a few examples of input portraits and their corresponding sketch output
     <img src="example.jpg" alt="Portrait1" width="256"/>
 </div>
 
+## Contributing
+-<a href="https://github.com/harrisrais">Haris Raees</a> 
 
