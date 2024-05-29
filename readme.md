@@ -40,9 +40,9 @@ You can either train the model from scratch by running the train.py file or you 
 
 Here are a few examples of input portraits and their corresponding sketch outputs:
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row;justify-content:center;">
 
-<div style="margin-right: 50%;">
+<div >
     <img src="example.jpg" alt="Portrait1" width="256"/>
 </div>
 
