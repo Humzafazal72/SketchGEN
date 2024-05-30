@@ -44,5 +44,7 @@ Here are a few examples of input portraits and their corresponding sketch output
 </div>
 
 ## Contributing
--<a href="https://github.com/harrisrais">Haris Raees</a> 
+- <a href="https://github.com/harrisrais">Haris Raees</a>
+- <a href="https://github.com/Usman-tsk">Muhammad Usmaan</a> 
+
 
