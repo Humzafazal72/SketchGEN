@@ -1,6 +1,6 @@
 <h1 align="center">SketchGEN: A Pix2Pix Based Portrait to Pencil Sketch Converter</h1>
 
-Welcome to the Portrait to SketchGAN! This project leverages the power of pix2pix, a Generative Adversarial Network (GAN) framework, to convert portrait images into sketches. 
+Welcome to SketchGAN! This project leverages the power of pix2pix, a Generative Adversarial Network (GAN) framework, to convert portrait images into sketches. 
 
 ## Table of Contents
 - [Introduction](#introduction)
