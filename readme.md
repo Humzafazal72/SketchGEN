@@ -28,7 +28,8 @@ The Dataset was created by collecting diverse portraits from:
 - thispersondoesnotexist.org
 - freepik.com
 
-Sketches for the collected portrait were created using <a href="https://play.google.com/store/apps/details?id=com.aerotools.photo.sketch.maker.editor&pcampaignid=web_share"> Photo Sketch Maker </a>.
+Sketches for the collected portrait were created using <a href="https://play.google.com/store/apps/details?id=com.aerotools.photo.sketch.maker.editor&pcampaignid=web_share"> Photo Sketch Maker </a>.<br>
+You can download the dataset from <a href ="#">here</a>
 
 ## Installation
 
