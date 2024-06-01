@@ -1,9 +1,11 @@
 <h1 align="center">SketchGEN: A Pix2Pix Based Portrait to Pencil Sketch Converter</h1>
 
-Welcome to SketchGAN! This project leverages the power of pix2pix, a Generative Adversarial Network (GAN) framework, to convert portrait images into sketches. 
+Welcome to SketchGAN! This project leverages the power of pix2pix, a Generative Adversarial Network (GAN) framework, to convert portrait images into sketches.<br>
+Traditional methods for converting portrait photos to sketches are complicated. They start by reducing noise with Gaussian blurring, then changing the image to grayscale. Next, they detect edges using techniques like the Canny edge detector. To create a pencil sketch look, they use texture mapping, and then they adjust the brightness and contrast. These methods are very sensitive to changes in lighting due to the gradient computation during Edge Detection. Our new method uses a GAN-based approach. The generator (UNET) creates sketches from images, and the discriminator (PatchGAN) differentiates between real and generated sketches. This new method is much better and doesn’t get affected by lighting changes.
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Dataset](#dataset)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,6 +20,14 @@ This project is designed to take a portrait image as input and produce a sketch 
 
 - **Easy Conversion**: Simple and efficient conversion of portrait images to sketches.
 - **Open Source**: The project is open-source and can be freely used and modified.
+
+## Dataset
+
+The Dataset was created by collecting diverse portraits from:
+- pexels.com
+- thispersondoesnotexist.org
+- freepik.com
+Sketches for the collected portrait were created using <a href="https://play.google.com/store/apps/details?id=com.aerotools.photo.sketch.maker.editor&pcampaignid=web_share"> Photo Sketch Maker </a>.
 
 ## Installation
 
