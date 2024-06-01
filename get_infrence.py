@@ -1,29 +1,28 @@
 # How to take inference and save sketch
+import cv2
 import torch
 import numpy as np
 from train import gen,DEVICE
 import matplotlib.pyplot as plt
-from DatasetLoader import test_loader
 
-c = 0 #number of pictures
-g = []
+image_path = "path_to_image" 
+img = cv2.imread(img_path)
+img = cv2.resize(img,(256,256))
+img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+
+img_tensor = torch.tensor(img)
+img = np.transpose(img, (2, 0, 1))/255.0
+img = np.expand_dims(img, axis=0)
+img = torch.tensor(img,dtype=torch.float32)
+
+# use your trained Generator or our trained weights.
 gen.eval()
 with torch.no_grad():
-    for image,sk in test_loader:
-        c+=1
-        if c<50:
-            g.append(gen(image.to(DEVICE)))
-            continue
-        break
+    pred = gen(img)
+    
 
-preds = []
-for img in g:
-    pred = np.array(img.detach().to('cpu'))
-    pred = pred[0].transpose(1, 2, 0)
-    preds.append(pred)
+pred = np.array(img.detach().to('cpu'))
+pred = pred[0].transpose(1, 2, 0)
 
-i=0
-for pred in preds:
-    pred = np.clip(pred, 0.0, 1.0)
-    plt.imsave(f'generated{i}.jpg', pred)
-    i+=1
+pred = np.clip(pred, 0.0, 1.0) #clip the negative pixels 
+plt.imsave(f'generated{i}.jpg', pred)
