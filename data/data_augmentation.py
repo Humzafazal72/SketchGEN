@@ -12,8 +12,7 @@ def apply_augmentation(src_path, dst_path):
     for filename in tqdm(files):
         path = os.path.join(source_folder, filename)
         img = plt.imread(path)
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-
+        
         # mirror image
         img_flip0 = cv2.flip(img, flipCode=0)
 
