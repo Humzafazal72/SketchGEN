@@ -1,3 +1,6 @@
+# Code For Evaluating Individual generated,true/original image pairs 
+# The Evaluation Metric Used is Multi Scale Structural Similarity Index Measure
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
