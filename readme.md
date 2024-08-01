@@ -7,6 +7,7 @@ Traditional methods for converting portrait photos to sketches are complicated. 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Features](#features)
+- [Evaluation](#evaluation)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -30,6 +31,9 @@ The Dataset was created by collecting diverse portraits from:
 
 Sketches for the collected portrait were created using <a href="https://play.google.com/store/apps/details?id=com.aerotools.photo.sketch.maker.editor&pcampaignid=web_share"> Photo Sketch Maker </a>. Brightness and Contrast for the generated sketches were adjusted manually. <br>
 You can download the dataset from <a href ="#">here</a>
+
+## Evaluation
+The prominant method for evaluating GANs is <a href='https://medium.com/@jkumarsharma998/frechet-inception-distance-fid-for-evaluating-gans-7bb953ca2ed4#:~:text=The%20FID%20score%20is%20used,well%20with%20higher%20quality%20images.' >FID score</a>. However, for evluating a cGAN(Conditional GAN) like pix2pix where we have a corresponding image for each generated image FID score is not a suitable metric.    
 
 ## Installation
 
