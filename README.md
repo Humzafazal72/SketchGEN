@@ -40,9 +40,9 @@ python train.py -s data/mock data/portrait -t data/mock data/sketches --gen_type
 ```
 
 ## Inference
-train.py can be used to for training on either a paired dataset. Ensure that the dataset is in the same format as data/mock data.
+get_inference.py can be used to for getting inference on data.
 ``` 
-python train.py --gen_type unet++/unet --gen_weights_path path/to/weights.pth --img_path path/to/img
+python get_inference.py --gen_type unet++/unet --gen_weights_path path/to/weights.pth --img_path path/to/img
 ```
 ## Contributing
 - <a href="https://github.com/harrisrais"> Haris Raees </a>
