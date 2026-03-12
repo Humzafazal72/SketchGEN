@@ -36,7 +36,7 @@ This work was part of a research study aiming to generate pencil sketches that p
 ## Training
 train.py can be used to for training on either a paired dataset. Ensure that the dataset is in the same format as data/mock data.
 ``` 
-python train.py -s data/mock data/portrait -t data/mock data/sketches --gen_type unet++/unet -e 500
+python train.py -s data/mock_dataset/portrait -t data/mock_dataset/sketches --gen_type unet/unet++ -e 500
 ```
 
 ## Inference
